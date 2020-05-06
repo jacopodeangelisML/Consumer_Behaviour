@@ -1,0 +1,13 @@
+This project is aimed at building models to predict frugality in consumers.
+Frugality has been defined as the degree to which consumers are both restrained in acquiring and in resourcefully using economic goods 
+and services to achieve long-term goals (Lavosticka et al., 1999).
+Although this concept has been only neglected by marketing managers and marketing literature, a substantial number of evidence showed
+how focusing on this construct may create marketing opportunities (Todd & Lowson, 2003).
+In the present project, I developed an Artificial Neural Network model that is addressed to predict frugality in consumers, given a set of
+features.
+
+Data source:
+https://data.world/cfpb/financial-well-being-survey-data
+
+
+
