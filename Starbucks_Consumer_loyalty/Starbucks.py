@@ -212,11 +212,12 @@ summary_table['f1'].mean()
 features_name = ['visitNo','spendPurchase','timeSpend','productRate','priceRate','serviceRate',
                  'chooseRate','Self-Employed','Employed','Take away']
 svm.coef_
-importance = [0.372, -0.166, -1.415, -0.483, -0.816, 0.378,
-              -0.433, -0.057, -0.750, -0.878]
-tfi = pd.DataFrame(zip(features_name,importance), columns = ['features_name','importance'])
-sns.barplot(x=sorted(tfi['importance']),y=tfi['features_name'])
-
+tfi = pd.DataFrame({'Features':['number of visits', 'Spent Purchased', 'Time in stores', 'Product Rate',
+                                'Price Rate', 'Service Rate', 'Choose Rate', 'Self-Employed', 'Employed',
+                                'Take Away'], 'importance': [-0.372, 0.166, 1.415, 0.483, 0.816, -0.378, 
+                                0.433, 0.057, 0.750, 0.878]})
+tfi_sort = tfi.sort_values(by =['importance'])
+sns.barplot(x=(tfi_sort['importance']),y=tfi_sort['Features'])
 
 
 
