@@ -1,0 +1,6 @@
+I run a SVM model with linear Kernel aimed at predicting brands' loyalty in Starbacks consumer.
+The model has been validated through the use of cross-fold validation.
+
+Data source: Kraggle
+Data description: This dataset is composed of a survey questions of over 100 respondents for their buying behavior at Starbucks.
+Aim of the analysis: Predict behavior to retain customers. 
